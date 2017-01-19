@@ -7,29 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1751D8D41E30993000A15F4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1751D8D31E30993000A15F4C /* main.m */; };
-		1751D8D71E30993000A15F4C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1751D8D61E30993000A15F4C /* AppDelegate.m */; };
-		1751D8DA1E30993000A15F4C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1751D8D91E30993000A15F4C /* ViewController.m */; };
-		1751D8DD1E30993000A15F4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1751D8DB1E30993000A15F4C /* Main.storyboard */; };
-		1751D8DF1E30993000A15F4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1751D8DE1E30993000A15F4C /* Assets.xcassets */; };
-		1751D8E21E30993000A15F4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1751D8E01E30993000A15F4C /* LaunchScreen.storyboard */; };
+		17D46C691E2FC11B004F9315 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D46C681E2FC11B004F9315 /* main.m */; };
+		17D46C6C1E2FC11B004F9315 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D46C6B1E2FC11B004F9315 /* AppDelegate.m */; };
+		17D46C6F1E2FC11B004F9315 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D46C6E1E2FC11B004F9315 /* ViewController.m */; };
+		17D46C721E2FC11B004F9315 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17D46C701E2FC11B004F9315 /* Main.storyboard */; };
+		17D46C741E2FC11B004F9315 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17D46C731E2FC11B004F9315 /* Assets.xcassets */; };
+		17D46C771E2FC11B004F9315 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17D46C751E2FC11B004F9315 /* LaunchScreen.storyboard */; };
+		17D46C7F1E2FC3F4004F9315 /* a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17D46C7E1E2FC3F4004F9315 /* a.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1751D8CF1E30993000A15F4C /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1751D8D31E30993000A15F4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1751D8D51E30993000A15F4C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		1751D8D61E30993000A15F4C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1751D8D81E30993000A15F4C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1751D8D91E30993000A15F4C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1751D8DC1E30993000A15F4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1751D8DE1E30993000A15F4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1751D8E11E30993000A15F4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1751D8E31E30993000A15F4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17D46C641E2FC11B004F9315 /* helloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = helloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17D46C681E2FC11B004F9315 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17D46C6A1E2FC11B004F9315 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		17D46C6B1E2FC11B004F9315 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		17D46C6D1E2FC11B004F9315 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		17D46C6E1E2FC11B004F9315 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		17D46C711E2FC11B004F9315 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17D46C731E2FC11B004F9315 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17D46C761E2FC11B004F9315 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17D46C781E2FC11B004F9315 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17D46C7E1E2FC3F4004F9315 /* a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1751D8CC1E30993000A15F4C /* Frameworks */ = {
+		17D46C611E2FC11B004F9315 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,42 +41,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1751D8C61E30993000A15F4C = {
+		17D46C5B1E2FC11B004F9315 = {
 			isa = PBXGroup;
 			children = (
-				1751D8D11E30993000A15F4C /* HelloWorld */,
-				1751D8D01E30993000A15F4C /* Products */,
+				17D46C661E2FC11B004F9315 /* helloWorld */,
+				17D46C651E2FC11B004F9315 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1751D8D01E30993000A15F4C /* Products */ = {
+		17D46C651E2FC11B004F9315 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1751D8CF1E30993000A15F4C /* HelloWorld.app */,
+				17D46C641E2FC11B004F9315 /* helloWorld.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1751D8D11E30993000A15F4C /* HelloWorld */ = {
+		17D46C661E2FC11B004F9315 /* helloWorld */ = {
 			isa = PBXGroup;
 			children = (
-				1751D8D51E30993000A15F4C /* AppDelegate.h */,
-				1751D8D61E30993000A15F4C /* AppDelegate.m */,
-				1751D8D81E30993000A15F4C /* ViewController.h */,
-				1751D8D91E30993000A15F4C /* ViewController.m */,
-				1751D8DB1E30993000A15F4C /* Main.storyboard */,
-				1751D8DE1E30993000A15F4C /* Assets.xcassets */,
-				1751D8E01E30993000A15F4C /* LaunchScreen.storyboard */,
-				1751D8E31E30993000A15F4C /* Info.plist */,
-				1751D8D21E30993000A15F4C /* Supporting Files */,
+				17D46C6A1E2FC11B004F9315 /* AppDelegate.h */,
+				17D46C6B1E2FC11B004F9315 /* AppDelegate.m */,
+				17D46C6D1E2FC11B004F9315 /* ViewController.h */,
+				17D46C6E1E2FC11B004F9315 /* ViewController.m */,
+				17D46C701E2FC11B004F9315 /* Main.storyboard */,
+				17D46C731E2FC11B004F9315 /* Assets.xcassets */,
+				17D46C751E2FC11B004F9315 /* LaunchScreen.storyboard */,
+				17D46C781E2FC11B004F9315 /* Info.plist */,
+				17D46C671E2FC11B004F9315 /* Supporting Files */,
 			);
-			path = HelloWorld;
+			path = helloWorld;
 			sourceTree = "<group>";
 		};
-		1751D8D21E30993000A15F4C /* Supporting Files */ = {
+		17D46C671E2FC11B004F9315 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1751D8D31E30993000A15F4C /* main.m */,
+				17D46C7E1E2FC3F4004F9315 /* a.jpg */,
+				17D46C681E2FC11B004F9315 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -82,40 +85,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1751D8CE1E30993000A15F4C /* HelloWorld */ = {
+		17D46C631E2FC11B004F9315 /* helloWorld */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1751D8E61E30993000A15F4C /* Build configuration list for PBXNativeTarget "HelloWorld" */;
+			buildConfigurationList = 17D46C7B1E2FC11B004F9315 /* Build configuration list for PBXNativeTarget "helloWorld" */;
 			buildPhases = (
-				1751D8CB1E30993000A15F4C /* Sources */,
-				1751D8CC1E30993000A15F4C /* Frameworks */,
-				1751D8CD1E30993000A15F4C /* Resources */,
+				17D46C601E2FC11B004F9315 /* Sources */,
+				17D46C611E2FC11B004F9315 /* Frameworks */,
+				17D46C621E2FC11B004F9315 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = HelloWorld;
-			productName = HelloWorld;
-			productReference = 1751D8CF1E30993000A15F4C /* HelloWorld.app */;
+			name = helloWorld;
+			productName = helloWorld;
+			productReference = 17D46C641E2FC11B004F9315 /* helloWorld.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1751D8C71E30993000A15F4C /* Project object */ = {
+		17D46C5C1E2FC11B004F9315 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Tushit Jain";
 				TargetAttributes = {
-					1751D8CE1E30993000A15F4C = {
+					17D46C631E2FC11B004F9315 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = T9NN4SW3G4;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 1751D8CA1E30993000A15F4C /* Build configuration list for PBXProject "HelloWorld" */;
+			buildConfigurationList = 17D46C5F1E2FC11B004F9315 /* Build configuration list for PBXProject "helloWorld" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -123,55 +126,56 @@
 				en,
 				Base,
 			);
-			mainGroup = 1751D8C61E30993000A15F4C;
-			productRefGroup = 1751D8D01E30993000A15F4C /* Products */;
+			mainGroup = 17D46C5B1E2FC11B004F9315;
+			productRefGroup = 17D46C651E2FC11B004F9315 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1751D8CE1E30993000A15F4C /* HelloWorld */,
+				17D46C631E2FC11B004F9315 /* helloWorld */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1751D8CD1E30993000A15F4C /* Resources */ = {
+		17D46C621E2FC11B004F9315 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1751D8E21E30993000A15F4C /* LaunchScreen.storyboard in Resources */,
-				1751D8DF1E30993000A15F4C /* Assets.xcassets in Resources */,
-				1751D8DD1E30993000A15F4C /* Main.storyboard in Resources */,
+				17D46C771E2FC11B004F9315 /* LaunchScreen.storyboard in Resources */,
+				17D46C7F1E2FC3F4004F9315 /* a.jpg in Resources */,
+				17D46C741E2FC11B004F9315 /* Assets.xcassets in Resources */,
+				17D46C721E2FC11B004F9315 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1751D8CB1E30993000A15F4C /* Sources */ = {
+		17D46C601E2FC11B004F9315 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1751D8DA1E30993000A15F4C /* ViewController.m in Sources */,
-				1751D8D71E30993000A15F4C /* AppDelegate.m in Sources */,
-				1751D8D41E30993000A15F4C /* main.m in Sources */,
+				17D46C6F1E2FC11B004F9315 /* ViewController.m in Sources */,
+				17D46C6C1E2FC11B004F9315 /* AppDelegate.m in Sources */,
+				17D46C691E2FC11B004F9315 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1751D8DB1E30993000A15F4C /* Main.storyboard */ = {
+		17D46C701E2FC11B004F9315 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1751D8DC1E30993000A15F4C /* Base */,
+				17D46C711E2FC11B004F9315 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		1751D8E01E30993000A15F4C /* LaunchScreen.storyboard */ = {
+		17D46C751E2FC11B004F9315 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1751D8E11E30993000A15F4C /* Base */,
+				17D46C761E2FC11B004F9315 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -179,7 +183,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		1751D8E41E30993000A15F4C /* Debug */ = {
+		17D46C791E2FC11B004F9315 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -227,7 +231,7 @@
 			};
 			name = Debug;
 		};
-		1751D8E51E30993000A15F4C /* Release */ = {
+		17D46C7A1E2FC11B004F9315 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -269,26 +273,26 @@
 			};
 			name = Release;
 		};
-		1751D8E71E30993000A15F4C /* Debug */ = {
+		17D46C7C1E2FC11B004F9315 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = T9NN4SW3G4;
-				INFOPLIST_FILE = HelloWorld/Info.plist;
+				INFOPLIST_FILE = helloWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = edu.binghamton.tjain3.HelloWorld;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.binghamton.tjain3.helloWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		1751D8E81E30993000A15F4C /* Release */ = {
+		17D46C7D1E2FC11B004F9315 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = T9NN4SW3G4;
-				INFOPLIST_FILE = HelloWorld/Info.plist;
+				INFOPLIST_FILE = helloWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = edu.binghamton.tjain3.HelloWorld;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.binghamton.tjain3.helloWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -296,24 +300,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1751D8CA1E30993000A15F4C /* Build configuration list for PBXProject "HelloWorld" */ = {
+		17D46C5F1E2FC11B004F9315 /* Build configuration list for PBXProject "helloWorld" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1751D8E41E30993000A15F4C /* Debug */,
-				1751D8E51E30993000A15F4C /* Release */,
+				17D46C791E2FC11B004F9315 /* Debug */,
+				17D46C7A1E2FC11B004F9315 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1751D8E61E30993000A15F4C /* Build configuration list for PBXNativeTarget "HelloWorld" */ = {
+		17D46C7B1E2FC11B004F9315 /* Build configuration list for PBXNativeTarget "helloWorld" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1751D8E71E30993000A15F4C /* Debug */,
-				1751D8E81E30993000A15F4C /* Release */,
+				17D46C7C1E2FC11B004F9315 /* Debug */,
+				17D46C7D1E2FC11B004F9315 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1751D8C71E30993000A15F4C /* Project object */;
+	rootObject = 17D46C5C1E2FC11B004F9315 /* Project object */;
 }

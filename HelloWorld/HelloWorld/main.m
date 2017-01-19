@@ -1,8 +1,8 @@
 //
 //  main.m
-//  HelloWorld
+//  helloWorld
 //
-//  Created by Tushit Jain on 1/19/17.
+//  Created by Tushit Jain on 1/18/17.
 //  Copyright © 2017 Tushit Jain. All rights reserved.
 //
 
