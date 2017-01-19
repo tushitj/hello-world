@@ -16,7 +16,11 @@
 
 - (void)viewDidLoad {
     self.counter=0;
-    [super viewDidLoad];
+    NSString * soundPath = [[NSBundle mainBundle]
+                            pathForResource:@"sound1" ofType:@"m4a"];
+    NSURL * sound1 =  [NSURL fileURLWithPath:soundPath];
+    AudioServicesCreateSystemSoundID ((__bridge CFURLRef)sound1, &theSound);
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -30,9 +34,11 @@
    
     if((self.counter % 2) == 0)
         [_myLabel1 setText:@"Tushit Jain"] ;
+    
     else
         [_myLabel1 setText:@"Hello World!"];
      self.counter++;
+    AudioServicesPlaySystemSound(theSound);
 }
 
 @end

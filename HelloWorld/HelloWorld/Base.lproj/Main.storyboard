@@ -37,7 +37,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="0.63401648116438358" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.92539960145950317" green="0.92553633451461792" blue="0.9253808856010437" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <gestureRecognizers/>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="A3f-S1-iDb" appends="YES" id="RZr-LH-6KL"/>

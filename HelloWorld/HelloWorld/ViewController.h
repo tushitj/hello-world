@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AudioToolbox/AudioToolbox.h>
 
 @interface ViewController : UIViewController
+{
+    SystemSoundID theSound;
+}
 @property (nonatomic, assign) NSInteger counter;
 @property (strong, nonatomic) IBOutlet UILabel *myLabel1;
 
