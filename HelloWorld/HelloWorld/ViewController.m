@@ -20,8 +20,7 @@
                             pathForResource:@"sound1" ofType:@"m4a"];
     NSURL * sound1 =  [NSURL fileURLWithPath:soundPath];
     AudioServicesCreateSystemSoundID ((__bridge CFURLRef)sound1, &theSound);
-    
-    // Do any additional setup after loading the view, typically from a nib.
+                        
 }
 
 
@@ -31,10 +30,18 @@
 }
 
 - (IBAction)label1Action:(id)sender {
-   
-    if((self.counter % 2) == 0)
-        [_myLabel1 setText:@"Tushit Jain"] ;
+/*Animation code grabbed from stackOverflow http://stackoverflow.com/users/218152/swiftarchitect  with additional flavouring performed */
     
+    
+    CATransition *animation = [CATransition animation];
+    animation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
+    animation.type = kCATransitionReveal;
+    animation.duration = 0.80;
+    [_myLabel1.layer addAnimation:animation forKey:@"kCATransitionReveal"];
+    if((self.counter % 2) == 0){
+        [_myLabel1 setText:@"Tushit Jain"] ;
+        [UIColor brownColor];
+    }
     else
         [_myLabel1 setText:@"Hello World!"];
      self.counter++;

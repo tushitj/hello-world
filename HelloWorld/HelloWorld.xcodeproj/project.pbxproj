@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1751D8EA1E309F4D00A15F4C /* sound1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 1751D8E91E309F4D00A15F4C /* sound1.m4a */; };
+		1751D8EC1E312C1000A15F4C /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1751D8EB1E312C1000A15F4C /* Icon.png */; };
 		17D46C691E2FC11B004F9315 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D46C681E2FC11B004F9315 /* main.m */; };
 		17D46C6C1E2FC11B004F9315 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D46C6B1E2FC11B004F9315 /* AppDelegate.m */; };
 		17D46C6F1E2FC11B004F9315 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D46C6E1E2FC11B004F9315 /* ViewController.m */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		1751D8E91E309F4D00A15F4C /* sound1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound1.m4a; sourceTree = "<group>"; };
+		1751D8EB1E312C1000A15F4C /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		17D46C641E2FC11B004F9315 /* helloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = helloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17D46C681E2FC11B004F9315 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		17D46C6A1E2FC11B004F9315 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 		17D46C671E2FC11B004F9315 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1751D8EB1E312C1000A15F4C /* Icon.png */,
 				1751D8E91E309F4D00A15F4C /* sound1.m4a */,
 				17D46C7E1E2FC3F4004F9315 /* a.jpg */,
 				17D46C681E2FC11B004F9315 /* main.m */,
@@ -144,6 +147,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1751D8EC1E312C1000A15F4C /* Icon.png in Resources */,
 				17D46C771E2FC11B004F9315 /* LaunchScreen.storyboard in Resources */,
 				17D46C7F1E2FC3F4004F9315 /* a.jpg in Resources */,
 				1751D8EA1E309F4D00A15F4C /* sound1.m4a in Resources */,
