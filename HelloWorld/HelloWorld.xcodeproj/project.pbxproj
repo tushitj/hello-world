@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17389C281E3519DE0075957E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17389C271E3519DE0075957E /* MapKit.framework */; };
 		1751D8EA1E309F4D00A15F4C /* sound1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 1751D8E91E309F4D00A15F4C /* sound1.m4a */; };
 		1751D8EC1E312C1000A15F4C /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1751D8EB1E312C1000A15F4C /* Icon.png */; };
 		17D46C691E2FC11B004F9315 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D46C681E2FC11B004F9315 /* main.m */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17389C271E3519DE0075957E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		1751D8E91E309F4D00A15F4C /* sound1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound1.m4a; sourceTree = "<group>"; };
 		1751D8EB1E312C1000A15F4C /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		17D46C641E2FC11B004F9315 /* helloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = helloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,17 +41,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17389C281E3519DE0075957E /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17389C261E3519DE0075957E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17389C271E3519DE0075957E /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		17D46C5B1E2FC11B004F9315 = {
 			isa = PBXGroup;
 			children = (
 				17D46C661E2FC11B004F9315 /* helloWorld */,
 				17D46C651E2FC11B004F9315 /* Products */,
+				17389C261E3519DE0075957E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,6 +133,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = T9NN4SW3G4;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
